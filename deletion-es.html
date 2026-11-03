@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es" translate="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="google" content="notranslate">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'">
+<title>C&#243;mo eliminar tus datos de MYVO — MYVO RC5</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a class="skip" href="#content">Ir al contenido</a><p><strong>MYVO</strong> · <a href="index.html">Todos los documentos</a></p><nav aria-label="Language"><a lang="ru" hreflang="ru" href="deletion-ru.html">Русский</a> <a lang="en" hreflang="en" href="deletion-en.html">English</a> <a lang="es" hreflang="es" href="deletion-es.html" aria-current="page">Espa&#241;ol</a> <a lang="fr" hreflang="fr" href="deletion-fr.html">Fran&#231;ais</a></nav><nav><a href="privacy-es.html">Privacidad</a> <a href="terms-es.html">Condiciones de uso</a> <a href="deletion-es.html">Eliminaci&#243;n de datos</a></nav><p class="draft">Borrador 1.0-RC5. Solo para revisi&#243;n local. Sin publicar ni entrar en vigor. Traducci&#243;n asistida por IA; revisi&#243;n ling&#252;&#237;stica pendiente.</p></header>
+<main id="content"><h1 id="como-eliminar-tus-datos-de-myvo">Cómo eliminar tus datos de MYVO</h1>
+<p><strong>Versión 1.0-RC5 del 2 de noviembre de 2026, en borrador para aprobación.</strong> La página todavía no está publicada ni vigente y no es una URL externa operativa para Google Play. El contenido de estas instrucciones está coordinado con la <a href="privacy-es.html">política</a> y los <a href="terms-es.html">términos</a>; antes de publicar, es necesario resolver las cuestiones de la nota editorial.</p>
+<p>Los comentarios nuevos y las capturas opcionales se guardan en Supabase y están disponibles para el responsable en un panel privado. No se crean copias nuevas en Google Sheets ni Google Drive. Las referencias a copias de comentarios en Google en este documento se limitan a las copias de trabajo creadas anteriormente: siguen siendo privadas y sujetas a las mismas reglas de conservación y eliminación. Este cambio no desactiva las notificaciones de Firebase ni el soporte por correo mediante Gmail.</p>
+<p><strong>Nota de traducción:</strong> traducción del original ruso RC5 realizada con asistencia automática. No es una traducción certificada y está pendiente de revisión lingüística.</p>
+<p><strong>Responsable:</strong> Siarhei Kuchar, Ayacucho 940, 1A, C1111AAD, Ciudad Autónoma de Buenos Aires, Argentina.</p>
+<p><strong>Para solicitudes:</strong> <a href="mailto:myvoapp.support@gmail.com?subject=MYVO%20data%20deletion">myvoapp.support@gmail.com</a>.</p>
+<p>Podés solicitar la eliminación sin registrarte ni reinstalar la aplicación.</p>
+<h2 id="si-myvo-se-abre">Si MYVO se abre</h2>
+<ol>
+<li>Abrí Ajustes → <strong>«Eliminar mis datos»</strong>.</li>
+<li>Leé la advertencia y confirmá la solicitud.</li>
+<li>Conectate a internet para que la solicitud llegue al servidor. Una vez aceptada la solicitud, se termina la participación.</li>
+<li>Esperá la confirmación de finalización en MYVO. Una solicitud pendiente todavía no significa que todas las acciones se hayan completado. Si hay fallas, la operación se reintenta; contactá al soporte si no termina.</li>
+</ol>
+<h2 id="si-desinstalaste-la-aplicacion-o-no-podes-acceder-a-ella">Si desinstalaste la aplicación o no podés acceder a ella</h2>
+<p>Escribí al soporte indicando que querés eliminar los datos de invitado de MYVO y adjuntá el <strong>código para solicitar la eliminación</strong> que guardaste previamente. El soporte verificará el código, iniciará el procesamiento y te informará el resultado. Enviar el correo o que el soporte lo reciba no confirma por sí solo que la eliminación se haya completado.</p>
+<p>Para guardar el código de antemano, abrí Ajustes de MYVO → <strong>«Código para solicitar la eliminación»</strong> → <strong>«Copiar código»</strong>. Se necesita internet para prepararlo/copiarlo. Guardá el código en un lugar seguro fuera de la aplicación antes de desinstalarla.</p>
+<p>Mantenelo en secreto: quien lo tenga puede solicitar la eliminación del invitado asociado. El código no permite iniciar sesión, leer deseos ni recuperar el registro. Si perdiste tanto el código como el acceso, avisale al soporte. No prometemos encontrar un registro de invitado aleatorio por email, nombre o ciudad. No envíes contraseñas, JWT, DNI ni otros documentos para la verificación habitual del código.</p>
+<h2 id="que-se-elimina">Qué se elimina</h2>
+<ul>
+<li>El registro de invitado y los ajustes relacionados, el historial personal, los contadores personales y el progreso geográfico.</li>
+<li>Los registros relacionados del servidor y el registro push en MYVO, con las excepciones indicadas más abajo para las entregas ya realizadas.</li>
+<li>Tus comentarios e imágenes, incluidas las copias de trabajo activas en la hoja de cálculo de Google y la carpeta de Google Drive de uso interno. La verificación de eliminación impide que un cliente antiguo vuelva a exportarlos.</li>
+<li>Los datos de verificación del código de eliminación y los registros de acceso del invitado relacionados.</li>
+</ul>
+<p>La solicitud integrada también limpia los datos de invitado de MYVO en la instalación accesible y solicita a Firebase que elimine el identificador de instalación. Pueden quedar en el teléfono paquetes de idiomas y una marca técnica de la eliminación completada; no es una sesión de invitado activa. Una solicitud externa no puede borrar a distancia un teléfono sin conexión/perdido ni llamar desde él a la API de Firebase; sí se elimina el registro push activo de MYVO en el servidor.</p>
+<h2 id="que-informacion-puede-conservarse">Qué información puede conservarse</h2>
+<p>Los deseos ya entregados a otras personas, el progreso de esas personas y los agregados generales pueden conservarse sin vínculo directo con el remitente eliminado. Los resultados colectivos generales no se recalculan retroactivamente. Se conserva una marca de control del identificador de una operación de comentario eliminada, sin su texto ni vínculo directo con el invitado, para evitar que el comentario reaparezca; no se estableció un plazo final para esa marca.</p>
+<p>La confirmación del servidor de una eliminación completada se conserva sin identificadores de invitado/participante ni lista de comentarios, y se programa para limpieza a los 30 días de completarse. Este plazo no se aplica a la marca técnica local del teléfono. Las solicitudes incompletas se conservan y se reintentan para cumplirlas; su plazo es diferente.</p>
+<p>El correo de soporte y la lista de personas invitadas se conservan por separado. No se eliminan automáticamente junto con el invitado. En el mismo correo podés solicitar por separado la eliminación de esa información; se le aplican la política y las excepciones legales correspondientes.</p>
+<p>Las copias de respaldo y los registros de los proveedores pueden limpiarse según sus propios procesos. Firebase publica un plazo de hasta 180 días para los datos correspondientes al identificador de instalación <strong>después de llamar a la API de eliminación</strong>. No es un plazo general para todos los datos, no se cuenta desde el correo ni es una promesa de borrar todas las copias de Google al presionar el botón.</p>
+<p>Limitamos la información conservada para una obligación legal concreta o una controversia pendiente a la cantidad y el plazo necesarios. La finalidad y la base correspondiente se determinan conforme a la sección 6 de la política para cada caso concreto. La sola existencia de esta salvedad no significa que se conserven todos los registros que deban eliminarse.</p>
+<h2 id="hay-que-esperar-a-que-termine-la-prueba">¿Hay que esperar a que termine la prueba?</h2>
+<p>No. Podés enviar la solicitud antes de la limpieza automática. Para un invitado inactivo, esta se inicia después de seis meses calendario; los comentarios y las imágenes se programan para limpieza a los 90 días del cierre efectivo de su propio período. Mientras el período esté abierto, no se inició el cómputo desde su cierre.</p>
+<p>Cumplimos las solicitudes dentro de los plazos aplicables; la ley argentina prevé hasta cinco días hábiles para la eliminación/rectificación correspondiente, con las condiciones de la ley, y el GDPR establece un plazo general de un mes con la posibilidad de prórroga prevista. El plazo más largo de otro régimen no sustituye un plazo más corto aplicable. Los reintentos técnicos no eximen de la obligación de terminar el procesamiento e informar cualquier impedimento.</p>
+<p><strong>La eliminación es irreversible.</strong> Una nueva participación crea un nuevo invitado. Eliminar el APK, salir de la lista de Google Play y finalizar una ronda de prueba no eliminan por sí solos los datos del servidor.</p>
+<h2 id="para-retirar-solo-el-permiso-de-mejora">Para retirar solo el permiso de mejora</h2>
+<p>En Ajustes podés elegir «Retirar el permiso para usar todos mis comentarios anteriores de mejora». La orden abarca los comentarios y capturas anteriores enviados explícitamente para mejoras, incluidas las copias activas en Supabase y Google. Se conservan el soporte, los deseos, el progreso y los materiales nuevos con una nueva confirmación explícita. La categoría de un comentario antiguo no acredita por sí sola un consentimiento nuevo. Se muestra un estado pendiente hasta terminar la limpieza; aceptar la orden no equivale a completarla. Si falla, se reintenta. La pausa técnica habitual antes de iniciar la limpieza es de unos cuatro minutos más el procesamiento de la cola; no promete un plazo fijo de finalización. Si no tenés acceso a la app, contactá a soporte; se verifica de forma proporcionada el vínculo con el invitado. El código de eliminación sirve para eliminar al invitado, no para leer el historial.</p>
+</main>
+<footer>Antes de publicar deben completarse las comprobaciones jur&#237;dicas y t&#233;cnicas.</footer>
+</body>
+</html>
